@@ -11,11 +11,12 @@ A React Native telecare application built with Expo Router, featuring AI-powered
 
 ## Screenshots
 
-### Sign In
-<img src="./assets/images/SignIn.jpg" width="250" height="500" alt="Sign In Screen">
-
-### Sign Up
-<img src="./assets/images/SignUp.jpg" width="250" height="500" alt="Sign Up Screen">
+<p align="center">
+   ### Sign In
+  <img src="assets/images/SignIn.jpg" width="260" alt="Sign In"/>
+   ### Sign Up
+  <img src="assets/images/SignUp.jpg" width="260" alt="Sign Up"/>
+</p>
 
 ## Tech Stack
 
