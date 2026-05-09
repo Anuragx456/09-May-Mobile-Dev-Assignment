@@ -1,56 +1,83 @@
-# Welcome to your Expo app 👋
+# Chai Code Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native telecare application built with Expo Router, featuring AI-powered healthcare services.
 
-## Get started
+## Features
+
+- **Authentication** - Sign in and Sign up screens with email/password
+- **Social Login** - Facebook, Google, and Instagram authentication options
+- **Telecare AI** - AI-powered healthcare consultation
+- **Responsive Design** - Mobile-first UI with smooth focus animations
+
+## Screenshots
+
+### Sign In
+![Sign In Screen](assets/images/SignIn.jpg)
+
+### Sign Up
+![Sign Up Screen](assets/images/SignUp.jpg)
+
+## Tech Stack
+
+- **Framework**: Expo SDK with React Native
+- **Routing**: Expo Router (file-based routing)
+- **Styling**: StyleSheet with custom color palette
+- **Icons**: Local PNG assets (Facebook, Google, Instagram)
+
+## Color Palette
+
+| Name | Hex Code | Usage |
+|------|----------|-------|
+| Primary | `#85CC17` | Buttons, links, accents |
+| Background | `#F6F6F6` | Screen background |
+| Surface | `#FFFFFF` | Input fields, cards |
+| Border | `#EFEFEF` | Input borders |
+| Text Secondary | `#A2A7A3` | Placeholder text |
+
+## Getting Started
 
 1. Install dependencies
-
    ```bash
    npm install
    ```
 
 2. Start the app
-
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Open in:
+   - [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
+   - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+   - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+   - [Expo Go](https://docs.expo.dev/get-started/expo-go/)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Project Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+```
+src/app/           # Expo Router pages (file-based routing)
+  index.tsx        # Sign In screen
+  SignUp.tsx       # Sign Up screen
+  _layout.tsx      # Root layout
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+assets/images/     # App images and icons
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## App Screens
 
-### Other setup steps
+### Sign In
+- Email and password input with focus animations
+- Primary action button with arrow indicator
+- Social login buttons (Facebook, Google, Instagram)
+- Link to Sign Up screen
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### Sign Up
+- Full name, email, and password fields
+- Focus state animations matching Sign In
+- Link back to Sign In screen
 
-## Learn more
+## Learn More
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo documentation](https://docs.expo.dev/)
+- [Expo Router introduction](https://docs.expo.dev/router/introduction/)
+- [React Native documentation](https://reactnative.dev/)
