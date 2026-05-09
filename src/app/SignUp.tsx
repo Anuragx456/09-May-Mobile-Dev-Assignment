@@ -42,7 +42,7 @@ export default function SignUp() {
 
           <Text style={styles.title}>Sign Up</Text>
           <Text style={styles.subtitle}>
-            Create your account and start your telecare journey.
+            Sign up in 1 minute for free!
           </Text>
 
           <Text style={styles.label}>Full Name</Text>
