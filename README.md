@@ -1,4 +1,4 @@
-# Chai Code Mobile
+# ChaiCode Mobile Dev Assignment
 
 A React Native telecare application built with Expo Router, featuring AI-powered healthcare services.
 
@@ -10,13 +10,7 @@ A React Native telecare application built with Expo Router, featuring AI-powered
 - **Responsive Design** - Mobile-first UI with smooth focus animations
 
 ## Screenshots
-## Screenshots
-
-### Sign In
-<img src="./assets/images/SignIn.png" width="250" height="500" alt="Sign In Screen">
-
-### Sign Up
-<img src="./assets/images/SignUp.png" width="250" height="500" alt="Sign Up Screen">
+<img src="./assets/images/Assignment01.png" alt="Screenshots">
 
 ## Tech Stack
 
