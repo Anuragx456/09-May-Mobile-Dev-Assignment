@@ -74,13 +74,13 @@ export default function SignUp() {
           />
 
           <Pressable style={styles.button}>
-            <Text style={styles.buttonText}>Sign Up</Text>
+            <Text style={styles.buttonText}>Sign Up →</Text>
           </Pressable>
 
           <View style={styles.bottomContainer}>
             <Text style={styles.bottomText}>Already have an account? </Text>
             <Link href="/">
-              <Text style={[styles.bottomText, { color: colors.primary }]}>Sign In</Text>
+              <Text style={[styles.bottomText, { color: colors.primary }]}>Sign In.</Text>
             </Link>
           </View>
         </View>
@@ -152,5 +152,5 @@ const styles = StyleSheet.create({
   inputFocused: {
     borderColor: "#85CC17",
     borderWidth: 2,
-  },
+  }
 });

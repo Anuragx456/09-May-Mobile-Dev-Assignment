@@ -10,7 +10,6 @@ A React Native telecare application built with Expo Router, featuring AI-powered
 - **Responsive Design** - Mobile-first UI with smooth focus animations
 
 ## Screenshots
-
 ## Screenshots
 
 ### Sign In

@@ -71,7 +71,7 @@ function SignIn() {
           />
 
           <Pressable style={styles.button}>
-            <Text style={styles.buttonText}>Sign In→</Text>
+            <Text style={styles.buttonText}>Sign In →</Text>
           </Pressable>
 
           <View style={styles.imageContainer}>
@@ -100,9 +100,14 @@ function SignIn() {
           <View style={styles.bottomContainer}>
             <Text style={styles.bottomText}>Don't have an account? </Text>
             <Link href="/SignUp">
-              <Text style={[styles.bottomText, { color: colors.primary }]}>Sign Up</Text>
+              <Text style={[styles.bottomText, { color: colors.primary }]}>Sign Up.</Text>
             </Link>
           </View>
+
+          <Link href="/ForgotPassword">
+            <Text style={styles.forgotPassword}>Forgot Password?</Text>
+          </Link>
+          
         </View>
       </KeyboardAvoidingView>
     </SafeAreaView>
@@ -167,7 +172,9 @@ const styles = StyleSheet.create({
     color: "#333",
   },
   bottomContainer: {
+    flexDirection: "row",
     alignItems: "center",
+    justifyContent: "center",
     marginTop: 20,
   },
   bottomText: {
@@ -185,8 +192,8 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   image: {
-    borderWidth: 2,
-    borderColor: "gray",
+    borderWidth: 1.5,
+    borderColor: "#c2c2c2",
     borderRadius: 15,
     margin: 5,
     padding: 10,
@@ -194,5 +201,12 @@ const styles = StyleSheet.create({
   inputFocused: {
     borderColor: "#85CC17", // color when focused
     borderWidth: 2, // optional: change width on focus
+  },
+  forgotPassword: {
+    textAlign: "center",
+    color: colors.primary,
+    fontWeight: "600",
+    marginTop: 10,
+    marginBottom: 10,
   },
 });
