@@ -11,7 +11,7 @@ A React Native telecare application built with Expo Router, featuring AI-powered
 
 ## Screenshots
 
-
+<img src="assets\images\Assignment01.png" alt="Screenshots">
 
 ## Tech Stack
 
